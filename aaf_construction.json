@@ -1,7 +1,7 @@
 [
   {
     "type": "construction",
-    "description": "ユーティティライトを設置する",
+    "description": "ユーティリティライトを設置する",
     "category": "FURN",
     "difficulty": 0,
     "time": 10,
@@ -9,7 +9,7 @@
       [{"id": "HAMMER", "level": 2}]
     ],
     "components": [
-      [["aaf_utilty_light", 1]]
+      [["aaf_utilty_light",  1]]
     ],
     "post_terrain": "t_utility_light"
   },{
@@ -19,7 +19,11 @@
     "difficulty": 3,
     "time": 50,
     "tools": [
-      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+      [["oxy_torch"   , 100],
+       ["welder"      , 100],
+       ["welder_crude", 100],
+       ["toolset"     , 100]
+      ]
     ],
     "qualities": [
       [{"id": "SAW_M", "level": 2}]
@@ -36,7 +40,11 @@
     "difficulty": 3,
     "time": 50,
     "tools": [
-      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+      [["oxy_torch"   , 100],
+       ["welder"      , 100],
+       ["welder_crude", 100],
+       ["toolset"     , 100]
+      ]
     ],
     "qualities": [
       [{"id": "SAW_M", "level": 2}]
@@ -56,7 +64,7 @@
       [{"id": "DIG", "level": 2}]
     ],
     "components": [
-      [["material_sand"    ,  200]]
+      [["material_sand" , 200]]
     ],
     "post_terrain": "t_sandbox"
   },{
@@ -66,11 +74,16 @@
     "difficulty": 3,
     "time": 100,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "components": [
-      [["pipe"         ,  10]],
-      [["sheet_metal"  ,  10]] 
+      [["pipe"         , 10]],
+      [["sheet_metal"  , 10]] 
     ],
     "post_terrain": "t_slide"
   },{
@@ -80,10 +93,15 @@
     "difficulty": 3,
     "time": 100,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "components": [
-      [["pipe"         ,  11]]
+      [["pipe"         , 11]]
     ],
     "post_terrain": "t_monkey_bars"
   },{
@@ -93,13 +111,18 @@
     "difficulty": 3,
     "time": 70,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
     ],
     "components": [
-      [["sheet_metal"   ,  4]]
+      [["sheet_metal" ,  4]]
     ],
     "post_terrain": "t_gas_tank"
   },{
@@ -109,7 +132,12 @@
     "difficulty": 3,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "components": [
       [["sheet_metal"   ,  4]],
@@ -149,7 +177,12 @@
     "difficulty": 3,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
@@ -165,15 +198,20 @@
     "difficulty": 3,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
     ],
     "components": [
-      [["steel_lump"     ,1]],
-      [["steel_chunk"    ,4]],
-      [["steel_plate"    ,7]]
+      [["steel_lump"  ,  1]],
+      [["steel_chunk" ,  4]],
+      [["steel_plate" ,  7]]
     ],
     "post_terrain": "t_sewage_pump"
   },{
@@ -183,7 +221,12 @@
     "difficulty": 3,
     "time": 60,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
@@ -200,7 +243,12 @@
     "difficulty": 2,
     "time": 50,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "components": [
       [["pipe"   ,  4]]
@@ -213,7 +261,12 @@
     "difficulty": 2,
     "time": 50,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "components": [
       [["pipe"   ,  4]]
@@ -226,7 +279,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -240,8 +298,8 @@
       [["circuit"         ,  2]],
       [["power_supply"    ,  1]],
       [["amplifier"       ,  1]],
-      [["plastic_chunk"   ,  10]],
-      [["scrap"           ,   6]]
+      [["plastic_chunk"   , 10]],
+      [["scrap"           ,  6]]
     ],
     "post_terrain": "t_slot_machine"
   },{
@@ -251,21 +309,26 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
     ],
     "components": [
       [["RAM"             ,  8]],
-      [["cable"           ,  40]],
+      [["cable"           , 40]],
       [["small_lcd_screen",  4]],
-      [["e_scrap"         ,  24]],
-      [["circuit"         ,  30]],
+      [["e_scrap"         , 24]],
+      [["circuit"         , 30]],
       [["power_supply"    ,  8]],
       [["amplifier"       ,  6]],
       [["plastic_chunk"   ,  8]],
-      [["scrap"           ,  16]]
+      [["scrap"           , 16]]
     ],
     "post_terrain": "t_sai_box"
   },{
@@ -275,7 +338,12 @@
     "difficulty": 5,
     "time": 60,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
@@ -293,7 +361,12 @@
     "difficulty": 5,
     "time": 60,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
@@ -311,19 +384,24 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
     ],
     "components": [
-      [["cable"         ,  24]],
-      [["power_supply"  ,   8]],
-      [["amplifier"     ,  16]],
-      [["steel_chunk"   ,  16]],
-      [["scrap"         ,  24]],
-      [["sheet_metal"   ,  12]],
-      [["ceramic_shard" ,   6]]
+      [["cable"         , 24]],
+      [["power_supply"  ,  8]],
+      [["amplifier"     , 16]],
+      [["steel_chunk"   , 16]],
+      [["scrap"         , 24]],
+      [["sheet_metal"   , 12]],
+      [["ceramic_shard" ,  6]]
     ],
     "post_terrain": "t_oil_circ_brkr_l"
   },{
@@ -333,19 +411,24 @@
     "difficulty": 5,
     "time": 70,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
     ],
     "components": [
-      [["cable"         ,  12]],
-      [["power_supply"  ,   6]],
-      [["amplifier"     ,  12]],
-      [["steel_chunk"   ,  12]],
-      [["scrap"         ,  18]],
-      [["sheet_metal"   ,   8]],
-      [["ceramic_shard" ,   4]]
+      [["cable"         , 12]],
+      [["power_supply"  ,  6]],
+      [["amplifier"     , 12]],
+      [["steel_chunk"   , 12]],
+      [["scrap"         , 18]],
+      [["sheet_metal"   ,  8]],
+      [["ceramic_shard" ,  4]]
     ],
     "post_terrain": "t_oil_circ_brkr_s"
   },{
@@ -355,22 +438,27 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
     ],
     "components": [
-      [["RAM"             , 6]],
-      [["cable"           ,24]],
-      [["small_lcd_screen",12]],
-      [["e_scrap"         ,24]],
-      [["circuit"         ,30]],
-      [["power_supply"    , 8]],
-      [["amplifier"       , 8]],
-      [["plastic_chunk"   , 4]],
-      [["scrap"           ,16]],
-      [["sheet_metal"     , 4]]
+      [["RAM"             ,  6]],
+      [["cable"           , 24]],
+      [["small_lcd_screen", 12]],
+      [["e_scrap"         , 24]],
+      [["circuit"         , 30]],
+      [["power_supply"    ,  8]],
+      [["amplifier"       ,  8]],
+      [["plastic_chunk"   ,  4]],
+      [["scrap"           , 16]],
+      [["sheet_metal"     ,  4]]
     ],
     "post_terrain": "t_switchgear_l"
   },{
@@ -380,22 +468,27 @@
     "difficulty": 5,
     "time": 70,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
     ],
     "components": [
-      [["RAM"             , 2]],
-      [["cable"           , 8]],
-      [["small_lcd_screen", 6]],
-      [["e_scrap"         ,12]],
-      [["circuit"         ,24]],
-      [["power_supply"    , 6]],
-      [["amplifier"       , 4]],
-      [["plastic_chunk"   , 2]],
-      [["scrap"           , 8]],
-      [["sheet_metal"     , 2]]
+      [["RAM"             ,  2]],
+      [["cable"           ,  8]],
+      [["small_lcd_screen",  6]],
+      [["e_scrap"         , 12]],
+      [["circuit"         , 24]],
+      [["power_supply"    ,  6]],
+      [["amplifier"       ,  4]],
+      [["plastic_chunk"   ,  2]],
+      [["scrap"           ,  8]],
+      [["sheet_metal"     ,  2]]
     ],
     "post_terrain": "t_switchgear_s"
   },{
@@ -405,7 +498,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -425,7 +523,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -445,18 +548,23 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
     ],
     "components": [
-      [["scrap"           ,  16]],
-      [["steel_chunk"     ,   6]],
-      [["lead"            ,  32]],
-      [["cable"           ,  40]],
-      [["sheet_metal"     ,   6]],
-      [["ceramic_shard"    ,  12]]
+      [["scrap"           , 16]],
+      [["steel_chunk"     ,  6]],
+      [["lead"            , 32]],
+      [["cable"           , 40]],
+      [["sheet_metal"     ,  6]],
+      [["ceramic_shard"   , 12]]
     ],
     "post_terrain": "t_potential_trans"
   },{
@@ -466,7 +574,12 @@
     "difficulty": 5,
     "time": 70,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
@@ -483,7 +596,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -503,7 +621,12 @@
     "difficulty": 5,
     "time": 70,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -528,7 +651,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -556,7 +684,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -584,7 +717,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -659,7 +797,12 @@
     "difficulty": 4,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -678,7 +821,12 @@
     "difficulty": 3,
     "time": 50,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}]
@@ -736,7 +884,12 @@
     "difficulty": 2,
     "time": 50,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
@@ -766,7 +919,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}],
@@ -790,7 +948,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}],
@@ -818,7 +981,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}],
@@ -845,7 +1013,12 @@
     "difficulty": 5,
     "time": 80,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "WRENCH", "level": 2}],
@@ -867,7 +1040,12 @@
     "difficulty": 2,
     "time": 40,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "components": [
       [["sheet_metal"   ,  4]],
@@ -881,7 +1059,12 @@
     "difficulty": 2,
     "time": 40,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "components": [
       [["sheet_metal"   ,  4]],
@@ -895,7 +1078,12 @@
     "difficulty": 2,
     "time": 30,
     "tools": [
-      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+      [
+       ["oxy_torch"   , 200],
+       ["welder"      , 200],
+       ["welder_crude", 200],
+       ["toolset"     , 200]
+      ]
     ],
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
@@ -931,5 +1119,81 @@
       [["2x4"   ,  1]]
     ],
     "post_terrain": "f_mannequin"
+  },{
+    "type": "construction",
+    "description": "オーブンを作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 30,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW",  "level": 1}]
+    ],
+    "components": [
+      [["sheet_metal",  6]],
+      [["scrap"      ,  6]],
+      [["steel_chunk",  3]],
+      [["element"    ,  4]],
+      [["cable"      ,  3]],
+      [["pilot_light",  1]]
+    ],
+    "post_terrain": "f_oven"
+  },{
+    "type": "construction",
+    "description": "彫像を作る",
+    "category": "FURN",
+    "difficulty": 4,
+    "time": 30,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "CHISEL", "level": 3}]
+    ],
+    "components": [
+      [["rock"   ,  6]]
+    ],
+    "post_terrain": "f_statue"
+  },{
+    "type": "construction",
+    "description": "墓石を作る",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 30,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "CHISEL", "level": 3}]
+    ],
+    "components": [
+      [["rock"   ,  14]],
+      [["corpse" ,   1]]
+    ],
+    "post_terrain": "f_grave_stone"
+  },{
+    "type": "construction",
+    "description": "畳を作る",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 30,
+    "components": [
+      [["straw_pile",  8]],
+      [["rag"       ,  4]],
+      [["string_36" ,  2]]
+    ],
+    "post_terrain": "f_tatami"
+  },{
+    "type": "construction",
+    "description": "金属圧縮機を作る",
+    "category": "FURN",
+    "difficulty": 6,
+    "time": 30,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW",  "level": 1}]
+    ],
+    "components": [
+      [["steel_lump" ,  2]],
+      [["steel_chunk",  4]],
+      [["scrap"      , 12]]
+    ],
+    "post_terrain": "t_recycler"
   }
 ]
