@@ -1,0 +1,935 @@
+[
+  {
+    "type": "construction",
+    "description": "ユーティティライトを設置する",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 10,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["aaf_utilty_light", 1]]
+    ],
+    "post_terrain": "t_utility_light"
+  },{
+    "type": "construction",
+    "description": "手すり(タイプ1)を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 50,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "SAW_M", "level": 2}]
+    ],
+    "components": [
+      [["pipe"         ,  2]],
+      [["sheet_metal"  ,  1]] 
+    ],
+    "post_terrain": "t_railing_h"
+  },{
+    "type": "construction",
+    "description": "手すり(タイプ2)を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 50,
+    "tools": [
+      [["oxy_torch", 100],["welder", 100],["welder_crude", 100],["toolset", 100]]
+    ],
+    "qualities": [
+      [{"id": "SAW_M", "level": 2}]
+    ],
+    "components": [
+      [["pipe"         ,  2]],
+      [["sheet_metal"  ,  1]] 
+    ],
+    "post_terrain": "t_railing_v"
+  },{
+    "type": "construction",
+    "description": "砂場を作る",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 80,
+    "qualities": [
+      [{"id": "DIG", "level": 2}]
+    ],
+    "components": [
+      [["material_sand"    ,  200]]
+    ],
+    "post_terrain": "t_sandbox"
+  },{
+    "type": "construction",
+    "description": "滑り台を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 100,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "components": [
+      [["pipe"         ,  10]],
+      [["sheet_metal"  ,  10]] 
+    ],
+    "post_terrain": "t_slide"
+  },{
+    "type": "construction",
+    "description": "ジャングルジムを作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 100,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "components": [
+      [["pipe"         ,  11]]
+    ],
+    "post_terrain": "t_monkey_bars"
+  },{
+    "type": "construction",
+    "description": "ガソリンタンクを作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 70,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]]
+    ],
+    "post_terrain": "t_gas_tank"
+  },{
+    "type": "construction",
+    "description": "給油ポンプ(故障)を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]],
+      [["hose"          ,  1]]
+    ],
+    "post_terrain": "t_gas_pump"
+  },{
+    "type": "construction",
+    "description": "柱を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 70,
+    "qualities": [
+      [{"id": "SMOOTH", "level": 1}]
+    ],
+    "components": [
+      [["concrete"   ,  4]]
+    ],
+    "post_terrain": "t_little_column"
+  },{
+    "type": "construction",
+    "description": "細い柱を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 70,
+    "qualities": [
+      [{"id": "SMOOTH", "level": 1}]
+    ],
+    "components": [
+      [["concrete"   ,  2]]
+    ],
+    "post_terrain": "t_little_column"
+  },{
+    "type": "construction",
+    "description": "下水管を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["steel_plate"   ,  2]]
+    ],
+    "post_terrain": "t_sewage_pipe"
+  },{
+    "type": "construction",
+    "description": "下水ポンプを作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["steel_lump"     ,1]],
+      [["steel_chunk"    ,4]],
+      [["steel_plate"    ,7]]
+    ],
+    "post_terrain": "t_sewage_pump"
+  },{
+    "type": "construction",
+    "description": "培養槽を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 60,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]],
+      [["glass_sheet"   ,  2]]
+    ],
+    "post_terrain": "t_vat"
+  },{
+    "type": "construction",
+    "description": "はしご(昇り)を作る",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 50,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "components": [
+      [["pipe"   ,  4]]
+    ],
+    "post_terrain": "t_ladder_up"
+  },{
+    "type": "construction",
+    "description": "はしご(下り)を作る",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 50,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "components": [
+      [["pipe"   ,  4]]
+    ],
+    "post_terrain": "t_ladder_down"
+  },{
+    "type": "construction",
+    "description": "スロットマシンを作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["processor"       ,  1]],
+      [["RAM"             ,  2]],
+      [["cable"           ,  2]],
+      [["small_lcd_screen",  1]],
+      [["e_scrap"         ,  4]],
+      [["circuit"         ,  2]],
+      [["power_supply"    ,  1]],
+      [["amplifier"       ,  1]],
+      [["plastic_chunk"   ,  10]],
+      [["scrap"           ,   6]]
+    ],
+    "post_terrain": "t_slot_machine"
+  },{
+    "type": "construction",
+    "description": "電気通信機器収納棚を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["RAM"             ,  8]],
+      [["cable"           ,  40]],
+      [["small_lcd_screen",  4]],
+      [["e_scrap"         ,  24]],
+      [["circuit"         ,  30]],
+      [["power_supply"    ,  8]],
+      [["amplifier"       ,  6]],
+      [["plastic_chunk"   ,  8]],
+      [["scrap"           ,  16]]
+    ],
+    "post_terrain": "t_sai_box"
+  },{
+    "type": "construction",
+    "description": "大型金属柱を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 60,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["steel_lump"    ,  2]],
+      [["steel_chunk"   ,  6]],
+      [["scrap"         , 18]]
+    ],
+    "post_terrain": "t_support_l"
+  },{
+    "type": "construction",
+    "description": "小型金属柱を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 60,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["steel_lump"    ,  1]],
+      [["steel_chunk"   ,  3]],
+      [["scrap"         ,  9]]
+    ],
+    "post_terrain": "t_support_s"
+  },{
+    "type": "construction",
+    "description": "HV油遮断機を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["cable"         ,  24]],
+      [["power_supply"  ,   8]],
+      [["amplifier"     ,  16]],
+      [["steel_chunk"   ,  16]],
+      [["scrap"         ,  24]],
+      [["sheet_metal"   ,  12]],
+      [["ceramic_shard" ,   6]]
+    ],
+    "post_terrain": "t_oil_circ_brkr_l"
+  },{
+    "type": "construction",
+    "description": "小型油遮断機を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 70,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["cable"         ,  12]],
+      [["power_supply"  ,   6]],
+      [["amplifier"     ,  12]],
+      [["steel_chunk"   ,  12]],
+      [["scrap"         ,  18]],
+      [["sheet_metal"   ,   8]],
+      [["ceramic_shard" ,   4]]
+    ],
+    "post_terrain": "t_oil_circ_brkr_s"
+  },{
+    "type": "construction",
+    "description": "大型開閉装置を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["RAM"             , 6]],
+      [["cable"           ,24]],
+      [["small_lcd_screen",12]],
+      [["e_scrap"         ,24]],
+      [["circuit"         ,30]],
+      [["power_supply"    , 8]],
+      [["amplifier"       , 8]],
+      [["plastic_chunk"   , 4]],
+      [["scrap"           ,16]],
+      [["sheet_metal"     , 4]]
+    ],
+    "post_terrain": "t_switchgear_l"
+  },{
+    "type": "construction",
+    "description": "小型開閉装置を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 70,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["RAM"             , 2]],
+      [["cable"           , 8]],
+      [["small_lcd_screen", 6]],
+      [["e_scrap"         ,12]],
+      [["circuit"         ,24]],
+      [["power_supply"    , 6]],
+      [["amplifier"       , 4]],
+      [["plastic_chunk"   , 2]],
+      [["scrap"           , 8]],
+      [["sheet_metal"     , 2]]
+    ],
+    "post_terrain": "t_switchgear_s"
+  },{
+    "type": "construction",
+    "description": "避雷器を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["cable"           ,  8]],
+      [["steel_chunk"     ,  6]],
+      [["scrap"           , 16]],
+      [["plastic_chunk"   ,  4]],
+      [["ceramic_shard"   , 24]]
+    ],
+    "post_terrain": "t_lgtn_arrest"
+  },{
+    "type": "construction",
+    "description": "断路器を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["scrap"           ,  8]],
+      [["steel_chunk"     ,  4]],
+      [["cable"           ,  4]],
+      [["ceramic_shard"   ,  2]],
+      [["lead"            ,  1]]
+    ],
+    "post_terrain": "t_station_disc"
+  },{
+    "type": "construction",
+    "description": "計器用変圧器を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["scrap"           ,  16]],
+      [["steel_chunk"     ,   6]],
+      [["lead"            ,  32]],
+      [["cable"           ,  40]],
+      [["sheet_metal"     ,   6]],
+      [["ceramic_shard"    ,  12]]
+    ],
+    "post_terrain": "t_potential_trans"
+  },{
+    "type": "construction",
+    "description": "ガードレールを作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 70,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]],
+      [["pipe"          ,  1]]
+    ],
+    "post_terrain": "t_guardrail_bg_dp"
+  },{
+    "type": "construction",
+    "description": "ベルトコンベアを作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["wire"      ,  1]],
+      [["pipe"      ,  4]],
+      [["chain"     , 10]],
+      [["scrap"     ,  5]],
+      [["xlframe"   ,  5]]
+    ],
+    "post_terrain": "t_conveyor"
+  },{
+    "type": "construction",
+    "description": "軽機械を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 70,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["wire"          ,  3]],
+      [["pipe"          ,  2]],
+      [["chain"         ,  1]],
+      [["cu_pipe"       ,  1]],
+      [["scrap"         ,  4]],
+      [["hose"          ,  1]],
+      [["steel_chunk"   ,  5]],
+      [["bearing"       , 12]],
+      [["frame"         ,  1]],
+      [["motor"         ,  1]]
+    ],
+    "post_terrain": "t_machinery_light"
+  },{
+    "type": "construction",
+    "description": "重機械を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["wire"          ,  3]],
+      [["pipe"          ,  2]],
+      [["chain"         ,  1]],
+      [["cu_pipe"       ,  1]],
+      [["steel_lump"    ,  2]],
+      [["hose"          ,  1]],
+      [["sheet_metal"   ,  3]],
+      [["steel_chunk"   ,  3]],
+      [["bearing"       , 12]],
+      [["frame"         ,  1]],
+      [["motor"         ,  1]],
+      [["metal_tank"    ,  1]],
+      [["motor_large"   ,  1]]
+    ],
+    "post_terrain": "t_machinery_heavy"
+  },{
+    "type": "construction",
+    "description": "古い機械を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["wire"          ,  1]],
+      [["pipe"          ,  2]],
+      [["chain"         ,  1]],
+      [["cu_pipe"       ,  1]],
+      [["scrap"         ,  3]],
+      [["hose"          ,  1]],
+      [["steel_chunk"   ,  3]],
+      [["bearing"       ,  5]],
+      [["frame"         ,  1]],
+      [["motor"         ,  1]],
+      [["splinter"      ,  3]],
+      [["2x4"           ,  4]],
+      [["nail"          , 10]]
+    ],
+    "post_terrain": "t_machinery_old"
+  },{
+    "type": "construction",
+    "description": "電子機械を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["wire"               ,  3]],
+      [["pipe"               ,  2]],
+      [["steel_chunk"        ,  4]],
+      [["bearing"            ,  6]],
+      [["motor"              ,  1]],
+      [["processor"          ,  1]],
+      [["RAM"                ,  4]],
+      [["cable"              ,  4]],
+      [["small_lcd_screen"   ,  1]],
+      [["e_scrap"            , 10]],
+      [["circuit"            ,  8]],
+      [["power_supply"       ,  3]],
+      [["amplifier"          ,  3]],
+      [["plastic_chunk"      ,  8]],
+      [["scrap"              ,  5]]
+    ],
+    "post_terrain": "t_machinery_electronic"
+  },{
+    "type": "construction",
+    "description": "長いステンドガラス窓(緑)を設置する",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 20,
+    "components": [
+      [["glass_sheet"   ,  1]]
+    ],
+    "post_terrain": "t_window_stained_green"
+  },{
+    "type": "construction",
+    "description": "長いステンドガラス窓(赤)を設置する",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 20,
+    "components": [
+      [["glass_sheet"   ,  1]]
+    ],
+    "post_terrain": "t_window_stained_red"
+  },{
+    "type": "construction",
+    "description": "長いステンドガラス窓(青)を設置する",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 100,
+    "components": [
+      [["glass_sheet"   ,  1]]
+    ],
+    "post_terrain": "t_window_stained_blue"
+  },{
+    "type": "construction",
+    "description": "肘掛け椅子を作る",
+    "category": "FURN",
+    "difficulty": 4,
+    "time": 30,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["2x4"    , 10]],
+      [["rag"    , 33]],
+      [["nail"   ,  8]]
+    ],
+    "post_terrain": "f_armchair"
+  },{
+    "type": "construction",
+    "description": "運動器具を作る",
+    "category": "FURN",
+    "difficulty": 4,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["pipe"          ,   1]],
+      [["steel_chunk"   ,   1]],
+      [["scrap"         ,   6]],
+      [["lead"          ,2000]]
+    ],
+    "post_terrain": "f_exercise"
+  },{
+    "type": "construction",
+    "description": "冷蔵庫(ガラスドア)を作る",
+    "category": "FURN",
+    "difficulty": 3,
+    "time": 50,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["scrap"         ,  6]],
+      [["steel_chunk"   ,  3]],
+      [["hose"          ,  1]],
+      [["glass_sheet"   ,  1]],
+      [["cu_pipe"       ,  6]]
+    ],
+    "post_terrain": "f_glass_fridge"
+  },{
+    "type": "construction",
+    "description": "全身鏡を作る",
+    "category": "FURN",
+    "difficulty": 4,
+    "time": 60,
+    "tools": [
+      [["polisher", 20]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["steel_chunk"   ,  12]],
+      [["steel_chunk"   ,   2]],
+      [["2x4"           ,   2]],
+      [["nail"          ,  10]]
+    ],
+    "post_terrain": "f_bigmirror"
+  },{
+    "type": "construction",
+    "description": "壊れた全身鏡を作る",
+    "category": "FURN",
+    "difficulty": 4,
+    "time": 60,
+    "tools": [
+      [["polisher", 20]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["steel_chunk"   ,  12]],
+      [["steel_chunk"   ,   2]],
+      [["2x4"           ,   2]],
+      [["nail"          ,  10]]
+    ],
+    "post_terrain": "f_bigmirror_b"
+  },{
+    "type": "construction",
+    "description": "大型ごみ箱を作る",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 50,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]]
+    ],
+    "post_terrain": "f_dumpster"
+  },{
+    "type": "construction",
+    "description": "飛び込み台を作る",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 40,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["2x4"   ,  4]],
+      [["nail"  ,  6]]
+    ],
+    "post_terrain": "f_dive_block"
+  },{
+    "type": "construction",
+    "description": "アーケード筐体を作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}],
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["television"      ,  1]],
+      [["plastic_chunk"   ,  6]],
+      [["circuit"         ,  6]],
+      [["2x4"             ,  8]],
+      [["nail"            , 16]],
+      [["cable"           , 20]],
+      [["power_supply"    ,  2]],
+      [["RAM"             ,  4]]
+    ],
+    "post_terrain": "f_arcade_machine"
+  },{
+    "type": "construction",
+    "description": "ピンボールマシンを作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}],
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["scrap"           ,  6]],
+      [["plastic_chunk"   ,  5]],
+      [["circuit"         ,  1]],
+      [["2x4"             ,  4]],
+      [["nail"            , 12]],
+      [["cable"           , 15]],
+      [["power_supply"    ,  1]],
+      [["RAM"             ,  1]],
+      [["pipe"            ,  2]],
+      [["glass_sheet"     ,  1]],
+      [["bearing"         , 16]]
+      
+    ],
+    "post_terrain": "f_pinball_machine"
+  },{
+    "type": "construction",
+    "description": "エルゴメーターを作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}],
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["foot_crank"         ,  1]],
+      [["plastic_chunk"      , 10]],
+      [["scrap"              ,  4]],
+      [["chain"              ,  1]],
+      [["pipe"               ,  5]],
+      [["saddle"             ,  1]],
+      [["wheel_small"        ,  1]],
+      [["small_lcd_screen"   ,  1]],
+      [["processor"          ,  1]],
+      [["RAM"                ,  1]],
+      [["nail"               ,  8]]
+    ],
+    "post_terrain": "f_ergometer"
+  },{
+    "type": "construction",
+    "description": "ランニングマシーンを作る",
+    "category": "FURN",
+    "difficulty": 5,
+    "time": 80,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}],
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["plastic_chunk"      , 14]],
+      [["scrap"              ,  5]],
+      [["pipe"               ,  3]],
+      [["small_lcd_screen"   ,  1]],
+      [["RAM"                ,  1]],
+      [["nail"               ,  8]]
+    ],
+    "post_terrain": "f_treadmill"
+  },{
+    "type": "construction",
+    "description": "陳列ケースを作る",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 40,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]],
+      [["glass_sheet"   ,  1]]
+    ],
+    "post_terrain": "f_displaycase"
+  },{
+    "type": "construction",
+    "description": "壊れた陳列ケースを作る",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 40,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]],
+      [["glass_sheet"   ,  1]]
+    ],
+    "post_terrain": "f_displaycase_b"
+  },{
+    "type": "construction",
+    "description": "サンドバッグを作る",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 30,
+    "tools": [
+      [["oxy_torch", 200],["welder", 200],["welder_crude", 200],["toolset", 200]]
+    ],
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["chain"     ,  3]],
+      [["leather"   , 12]],
+      [["rag"       , 18]]    ],
+    "post_terrain": "f_floor_canvas"
+  },{
+    "type": "construction",
+    "description": "脚立を作る",
+    "category": "FURN",
+    "difficulty": 2,
+    "time": 40,
+    "qualities": [
+      [{"id": "WRENCH", "level": 2}]
+    ],
+    "components": [
+      [["pipe"     ,  6]]
+    ],
+    "post_terrain": "f_ladder"
+  },{
+    "type": "construction",
+    "description": "マネキンを作る",
+    "category": "FURN",
+    "difficulty": 1,
+    "time": 30,
+    "qualities": [
+      [{"id": "SAW_W", "level": 1}]
+    ],
+    "components": [
+      [["2x4"   ,  1]]
+    ],
+    "post_terrain": "f_mannequin"
+  }
+]

@@ -1,0 +1,11 @@
+{
+     "type"        : "MOD_INFO"
+    ,"mod-type"    : "SUPPLEMENTAL"
+    ,"ident"       : "Utility_light_and_Furnitures"
+    ,"name"        : "追加 - ユーティティライトと建築物追加"
+    ,"authors"     : ["YasuYasu"]
+    ,"description" : "ユーティティライトやステンドグラスなどの家具・建築物を設置できるようにします。"
+    ,"category"    : "buildings"
+    ,"dependencies": ["dda"]
+    ,"obsolete"    : false
+}

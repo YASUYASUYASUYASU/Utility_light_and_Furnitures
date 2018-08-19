@@ -1,0 +1,46 @@
+[
+  {
+    "id" : "aaf_utilty_light",
+    "type": "TOOL",
+    "symbol": "&",
+    "color": "lt gray",
+    "name": "ユーティティライト(自作)",
+    "description": "自作のユーティティライトです。",
+    "price": 800000,
+    "material": ["steel", "plastic"],
+    "weight": 12000,
+    "volume": 18,
+    "bashing": 10,
+    "category": "tools"
+  },{
+    "type" : "recipe",
+    "result": "aaf_utilty_light",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "skill_used": "electronics",
+    "skills_required": ["mechanics", 8],
+    "difficulty": 8,
+    "time": 120000,
+    "reversible": false,
+    "book_learn": [[ "recipe_lab_elec", 8 ]],
+    "qualities": [
+      {"id":"HAMMER","level":3,"amount":1},
+      {"id":"SCREW_FINE","level":1,"amount":1}
+    ],
+    "tools": [
+      [["soldering_iron", 100],["toolset", 100]]
+    ],
+    "components": [
+       [["processor"       ,  1]]
+      ,[["RAM"             ,  1]]
+      ,[["cable"           ,  5]]
+      ,[["power_supply"    ,  1]]
+      ,[["amplifier"       ,  1]]
+      ,[["plastic_chunk"   , 10]]
+      ,[["scrap"           , 10]]
+      ,[["sheet_metal"     ,  2]
+      , ["steel_plate"     ,  1]]
+      ,[["plut_cell"       ,  2]]
+    ]
+  }
+]
