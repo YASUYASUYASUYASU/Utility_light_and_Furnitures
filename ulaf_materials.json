@@ -1,0 +1,18 @@
+[
+  {
+    "type": "material",
+    "ident": "freshdirt",
+    "name": "“y",
+    "density": 4,
+    "bash_resist": 1,
+    "cut_resist": 1,
+    "acid_resist": 4,
+    "fire_resist": 3,
+    "elec_resist": 2,
+    "chip_resist": 4,
+    "dmg_adj": [ "lightly damaged", "damaged", "very damaged", "thoroughly damaged" ],
+    "bash_dmg_verb": "squished",
+    "cut_dmg_verb": "cut"
+  }
+]
+

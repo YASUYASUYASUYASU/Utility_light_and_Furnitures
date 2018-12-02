@@ -1,7 +1,7 @@
 [
   {
     "type": "construction",
-    "description": "ユーティリティライトを設置する",
+    "description": "ユーティリティライトを設置する[ulaf]",
     "category": "FURN",
     "difficulty": 0,
     "time": 10,
@@ -14,15 +14,16 @@
     "post_terrain": "t_utility_light"
   },{
     "type": "construction",
-    "description": "手すり(タイプ1)を作る",
+    "description": "手すり(タイプ1)を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 50,
     "tools": [
-      [["oxy_torch"   , 100],
+      [
+       ["oxy_torch"   ,  20],
        ["welder"      , 100],
-       ["welder_crude", 100],
-       ["toolset"     , 100]
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -35,15 +36,16 @@
     "post_terrain": "t_railing_h"
   },{
     "type": "construction",
-    "description": "手すり(タイプ2)を作る",
+    "description": "手すり(タイプ2)を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 50,
     "tools": [
-      [["oxy_torch"   , 100],
+      [
+       ["oxy_torch"   ,  20],
        ["welder"      , 100],
-       ["welder_crude", 100],
-       ["toolset"     , 100]
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -56,7 +58,7 @@
     "post_terrain": "t_railing_v"
   },{
     "type": "construction",
-    "description": "砂場を作る",
+    "description": "砂場を作る[ulaf]",
     "category": "FURN",
     "difficulty": 0,
     "time": 80,
@@ -69,16 +71,16 @@
     "post_terrain": "t_sandbox"
   },{
     "type": "construction",
-    "description": "滑り台を作る",
+    "description": "滑り台を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 100,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "components": [
@@ -88,16 +90,16 @@
     "post_terrain": "t_slide"
   },{
     "type": "construction",
-    "description": "ジャングルジムを作る",
+    "description": "ジャングルジムを作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 100,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "components": [
@@ -106,16 +108,16 @@
     "post_terrain": "t_monkey_bars"
   },{
     "type": "construction",
-    "description": "ガソリンタンクを作る",
+    "description": "ガソリンタンクを作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 70,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -127,16 +129,16 @@
     "post_terrain": "t_gas_tank"
   },{
     "type": "construction",
-    "description": "給油ポンプ(故障)を作る",
+    "description": "給油ポンプ(故障)を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "components": [
@@ -159,7 +161,7 @@
     "post_terrain": "t_little_column"
   },{
     "type": "construction",
-    "description": "細い柱を作る",
+    "description": "細い柱を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 70,
@@ -172,16 +174,16 @@
     "post_terrain": "t_little_column"
   },{
     "type": "construction",
-    "description": "下水管を作る",
+    "description": "下水管を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -193,16 +195,16 @@
     "post_terrain": "t_sewage_pipe"
   },{
     "type": "construction",
-    "description": "下水ポンプを作る",
+    "description": "下水ポンプを作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -216,16 +218,16 @@
     "post_terrain": "t_sewage_pump"
   },{
     "type": "construction",
-    "description": "培養槽を作る",
+    "description": "培養槽を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 60,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -238,16 +240,16 @@
     "post_terrain": "t_vat"
   },{
     "type": "construction",
-    "description": "はしご(昇り)を作る",
+    "description": "はしご(昇り)を作る[ulaf]",
     "category": "FURN",
     "difficulty": 2,
     "time": 50,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "components": [
@@ -256,16 +258,16 @@
     "post_terrain": "t_ladder_up"
   },{
     "type": "construction",
-    "description": "はしご(下り)を作る",
+    "description": "はしご(下り)を作る[ulaf]",
     "category": "FURN",
     "difficulty": 2,
     "time": 50,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "components": [
@@ -274,16 +276,16 @@
     "post_terrain": "t_ladder_down"
   },{
     "type": "construction",
-    "description": "スロットマシンを作る",
+    "description": "スロットマシンを作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -304,16 +306,16 @@
     "post_terrain": "t_slot_machine"
   },{
     "type": "construction",
-    "description": "電気通信機器収納棚を作る",
+    "description": "電気通信機器収納棚を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -333,16 +335,16 @@
     "post_terrain": "t_sai_box"
   },{
     "type": "construction",
-    "description": "大型金属柱を作る",
+    "description": "大型金属柱を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 60,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -362,10 +364,10 @@
     "time": 60,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -379,16 +381,16 @@
     "post_terrain": "t_support_s"
   },{
     "type": "construction",
-    "description": "HV油遮断機を作る",
+    "description": "HV油遮断機を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -406,16 +408,16 @@
     "post_terrain": "t_oil_circ_brkr_l"
   },{
     "type": "construction",
-    "description": "小型油遮断機を作る",
+    "description": "小型油遮断機を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -433,16 +435,16 @@
     "post_terrain": "t_oil_circ_brkr_s"
   },{
     "type": "construction",
-    "description": "大型開閉装置を作る",
+    "description": "大型開閉装置を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -463,16 +465,16 @@
     "post_terrain": "t_switchgear_l"
   },{
     "type": "construction",
-    "description": "小型開閉装置を作る",
+    "description": "小型開閉装置を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -493,16 +495,16 @@
     "post_terrain": "t_switchgear_s"
   },{
     "type": "construction",
-    "description": "避雷器を作る",
+    "description": "避雷器を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -518,16 +520,16 @@
     "post_terrain": "t_lgtn_arrest"
   },{
     "type": "construction",
-    "description": "断路器を作る",
+    "description": "断路器を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -543,16 +545,16 @@
     "post_terrain": "t_station_disc"
   },{
     "type": "construction",
-    "description": "計器用変圧器を作る",
+    "description": "計器用変圧器を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -569,16 +571,16 @@
     "post_terrain": "t_potential_trans"
   },{
     "type": "construction",
-    "description": "ガードレールを作る",
+    "description": "ガードレールを作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -591,16 +593,16 @@
     "post_terrain": "t_guardrail_bg_dp"
   },{
     "type": "construction",
-    "description": "ベルトコンベアを作る",
+    "description": "ベルトコンベアを作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -616,16 +618,16 @@
     "post_terrain": "t_conveyor"
   },{
     "type": "construction",
-    "description": "軽機械を作る",
+    "description": "軽機械を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -646,16 +648,16 @@
     "post_terrain": "t_machinery_light"
   },{
     "type": "construction",
-    "description": "重機械を作る",
+    "description": "重機械を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -679,16 +681,16 @@
     "post_terrain": "t_machinery_heavy"
   },{
     "type": "construction",
-    "description": "古い機械を作る",
+    "description": "古い機械を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -712,16 +714,16 @@
     "post_terrain": "t_machinery_old"
   },{
     "type": "construction",
-    "description": "電子機械を作る",
+    "description": "電子機械を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -747,7 +749,7 @@
     "post_terrain": "t_machinery_electronic"
   },{
     "type": "construction",
-    "description": "長いステンドガラス窓(緑)を設置する",
+    "description": "長いステンドガラス窓(緑)を設置する[ulaf]",
     "category": "FURN",
     "difficulty": 1,
     "time": 20,
@@ -757,7 +759,7 @@
     "post_terrain": "t_window_stained_green"
   },{
     "type": "construction",
-    "description": "長いステンドガラス窓(赤)を設置する",
+    "description": "長いステンドガラス窓(赤)を設置する[ulaf]",
     "category": "FURN",
     "difficulty": 1,
     "time": 20,
@@ -767,7 +769,7 @@
     "post_terrain": "t_window_stained_red"
   },{
     "type": "construction",
-    "description": "長いステンドガラス窓(青)を設置する",
+    "description": "長いステンドガラス窓(青)を設置する[ulaf]",
     "category": "FURN",
     "difficulty": 1,
     "time": 100,
@@ -777,7 +779,7 @@
     "post_terrain": "t_window_stained_blue"
   },{
     "type": "construction",
-    "description": "肘掛け椅子を作る",
+    "description": "肘掛け椅子を作る[ulaf]",
     "category": "FURN",
     "difficulty": 4,
     "time": 30,
@@ -792,16 +794,16 @@
     "post_terrain": "f_armchair"
   },{
     "type": "construction",
-    "description": "運動器具を作る",
+    "description": "運動器具を作る[ulaf]",
     "category": "FURN",
     "difficulty": 4,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -816,16 +818,16 @@
     "post_terrain": "f_exercise"
   },{
     "type": "construction",
-    "description": "冷蔵庫(ガラスドア)を作る",
+    "description": "冷蔵庫(ガラスドア)を作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 50,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -841,7 +843,7 @@
     "post_terrain": "f_glass_fridge"
   },{
     "type": "construction",
-    "description": "全身鏡を作る",
+    "description": "全身鏡を作る[ulaf]",
     "category": "FURN",
     "difficulty": 4,
     "time": 60,
@@ -860,7 +862,7 @@
     "post_terrain": "f_bigmirror"
   },{
     "type": "construction",
-    "description": "壊れた全身鏡を作る",
+    "description": "壊れた全身鏡を作る[ulaf]",
     "category": "FURN",
     "difficulty": 4,
     "time": 60,
@@ -879,16 +881,16 @@
     "post_terrain": "f_bigmirror_b"
   },{
     "type": "construction",
-    "description": "大型ごみ箱を作る",
+    "description": "大型ごみ箱を作る[ulaf]",
     "category": "FURN",
     "difficulty": 2,
     "time": 50,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -900,7 +902,7 @@
     "post_terrain": "f_dumpster"
   },{
     "type": "construction",
-    "description": "飛び込み台を作る",
+    "description": "飛び込み台を作る[ulaf]",
     "category": "FURN",
     "difficulty": 1,
     "time": 40,
@@ -914,16 +916,16 @@
     "post_terrain": "f_dive_block"
   },{
     "type": "construction",
-    "description": "アーケード筐体を作る",
+    "description": "アーケード筐体を作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -943,16 +945,16 @@
     "post_terrain": "f_arcade_machine"
   },{
     "type": "construction",
-    "description": "ピンボールマシンを作る",
+    "description": "ピンボールマシンを作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -976,16 +978,16 @@
     "post_terrain": "f_pinball_machine"
   },{
     "type": "construction",
-    "description": "エルゴメーターを作る",
+    "description": "エルゴメーターを作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -1008,16 +1010,16 @@
     "post_terrain": "f_ergometer"
   },{
     "type": "construction",
-    "description": "ランニングマシーンを作る",
+    "description": "ランニングマシーンを作る[ulaf]",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -1035,16 +1037,16 @@
     "post_terrain": "f_treadmill"
   },{
     "type": "construction",
-    "description": "陳列ケースを作る",
+    "description": "陳列ケースを作る[ulaf]",
     "category": "FURN",
     "difficulty": 2,
     "time": 40,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "components": [
@@ -1054,16 +1056,16 @@
     "post_terrain": "f_displaycase"
   },{
     "type": "construction",
-    "description": "壊れた陳列ケースを作る",
+    "description": "壊れた陳列ケースを作る[ulaf]",
     "category": "FURN",
     "difficulty": 2,
     "time": 40,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "components": [
@@ -1073,16 +1075,16 @@
     "post_terrain": "f_displaycase_b"
   },{
     "type": "construction",
-    "description": "サンドバッグを作る",
+    "description": "サンドバッグを作る[ulaf]",
     "category": "FURN",
     "difficulty": 2,
     "time": 30,
     "tools": [
       [
-       ["oxy_torch"   , 200],
-       ["welder"      , 200],
-       ["welder_crude", 200],
-       ["toolset"     , 200]
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
       ]
     ],
     "qualities": [
@@ -1108,7 +1110,7 @@
     "post_terrain": "f_ladder"
   },{
     "type": "construction",
-    "description": "マネキンを作る",
+    "description": "マネキンを作る[ulaf]",
     "category": "FURN",
     "difficulty": 1,
     "time": 30,
@@ -1121,7 +1123,7 @@
     "post_terrain": "f_mannequin"
   },{
     "type": "construction",
-    "description": "オーブンを作る",
+    "description": "オーブンを作る[ulaf]",
     "category": "FURN",
     "difficulty": 3,
     "time": 30,
@@ -1140,7 +1142,7 @@
     "post_terrain": "f_oven"
   },{
     "type": "construction",
-    "description": "彫像を作る",
+    "description": "彫像を作る[ulaf]",
     "category": "FURN",
     "difficulty": 4,
     "time": 30,
@@ -1154,7 +1156,7 @@
     "post_terrain": "f_statue"
   },{
     "type": "construction",
-    "description": "墓石を作る",
+    "description": "墓石を作る[ulaf]",
     "category": "FURN",
     "difficulty": 1,
     "time": 30,
@@ -1169,7 +1171,7 @@
     "post_terrain": "f_grave_stone"
   },{
     "type": "construction",
-    "description": "畳を作る",
+    "description": "畳を作る[ulaf]",
     "category": "FURN",
     "difficulty": 1,
     "time": 30,
@@ -1181,7 +1183,7 @@
     "post_terrain": "f_tatami"
   },{
     "type": "construction",
-    "description": "金属圧縮機を作る",
+    "description": "金属圧縮機を作る[ulaf]",
     "category": "FURN",
     "difficulty": 6,
     "time": 30,
@@ -1195,5 +1197,148 @@
       [["scrap"      , 12]]
     ],
     "post_terrain": "t_recycler"
+  },{
+    "type" : "construction",
+    "description" : "土を掘りだす[ulaf]",
+    "category" : "OTHER",
+    "required_skills" : [ [ "survival", 0 ] ],
+    "time" : 30,
+    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
+    "byproducts": [ { "item": "dirt_lump", "count": [ 6, 12 ]  } ],
+    "pre_terrain" : "t_dirt",
+    "post_special" : "done_extract_maybe_revert_to_dirt"
+  },{
+    "type": "construction",
+    "description": "床を設置する(土)[ulaf]",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 10,
+    "qualities": [
+      [{"id": "DIG", "level": 1}]
+    ],
+    "components": [
+      [["dirt_lump",  1]]
+    ],
+    "post_terrain": "t_dirt"
+  },{
+    "type": "construction",
+    "description": "床を設置する(木)[ulaf]",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 10,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["2x4" ,   4],
+       ["nail",  10]
+      ]
+    ],
+    "post_terrain": "t_floor"
+  },{
+    "type": "construction",
+    "description": "床を設置する(木 質素)[ulaf]",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 10,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}]
+    ],
+    "components": [
+      [["2x4" ,   4],
+       ["nail",  10]
+      ]
+    ],
+    "post_terrain": "t_floor_primitive"
+  },{
+    "type": "construction",
+    "description": "床を設置する(金属)[ulaf]",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 10,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW",  "level": 1}]
+    ],
+    "components": [
+      [["sheet_metal",  1]
+      ]
+    ],
+    "post_terrain": "t_metal_floor"
+  },{
+    "type": "construction",
+    "description": "床を設置する(金属の側溝蓋)[ulaf]",
+    "category": "FURN",
+    "difficulty": 0,
+    "time": 10,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2}],
+      [{"id": "SCREW",  "level": 1}]
+    ],
+    "components": [
+      [["sheet_metal",  1]
+      ]
+    ],
+    "post_terrain": "t_grate"
+  },{
+    "type": "construction",
+    "description": "床を設置する(コンクリート)[ulaf]",
+    "category": "FURN",
+    "required_skills" : [ [ "fabrication", 4 ] ],
+    "difficulty": 0,
+    "time": 40,
+    "tools": [ [ [ "con_mix", 10 ] ] ],
+    "qualities": [
+      { "id": "SMOOTH", "level": 1 }
+    ],
+    "components": [
+      [ [ "concrete", 1] ],
+      [ [ "water", 1], [ "water_clean", 1] ]
+    ],
+    "post_terrain": "t_grate"
+  },{
+    "type": "construction",
+    "description": "床を設置する(歩道)[ulaf]",
+    "category": "FURN",
+    "required_skills" : [ [ "fabrication", 4 ] ],
+    "difficulty": 0,
+    "time": 40,
+    "tools": [ [ [ "con_mix", 10 ] ] ],
+    "qualities": [
+      { "id": "SMOOTH", "level": 1 }
+    ],
+    "components": [
+      [ [ "concrete", 1] ],
+      [ [ "water", 1], [ "water_clean", 1] ]
+    ],
+    "post_terrain": "t_grate"
+  },{
+    "type": "construction",
+    "description": "水路を引く(浅水域)[ulaf]",
+    "category": "DIG",
+    "difficulty": 0,
+    "time": 30,
+    "qualities": [
+      [{"id": "DIG", "level": 2}]
+    ],
+    "components": [
+      [["water" ,  1000]]
+    ],
+    "pre_terrain" : "t_pit_shallow",
+    "post_terrain": "t_water_sh"
+  },{
+    "type": "construction",
+    "description": "水路を引く(深水域)[ulaf]",
+    "category": "DIG",
+    "difficulty": 0,
+    "time": 30,
+    "qualities": [
+      [{"id": "DIG", "level": 2}]
+    ],
+    "components": [
+      [["water" ,  1000]]
+    ],
+    "pre_terrain" : "t_pit",
+    "post_terrain": "t_water_dp"
   }
 ]
