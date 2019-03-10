@@ -1230,9 +1230,8 @@
       [{"id": "HAMMER", "level": 2}]
     ],
     "components": [
-      [["2x4" ,   4],
-       ["nail",  10]
-      ]
+      [["2x4" ,   4]],
+      [["nail",  10]]
     ],
     "post_terrain": "t_floor"
   },{
@@ -1245,26 +1244,10 @@
       [{"id": "HAMMER", "level": 2}]
     ],
     "components": [
-      [["2x4" ,   4],
-       ["nail",  10]
-      ]
+      [["2x4" ,   4]],
+      [["nail",  10]]
     ],
     "post_terrain": "t_floor_primitive"
-  },{
-    "type": "construction",
-    "description": "床を設置する(金属)[ulaf]",
-    "category": "FURN",
-    "difficulty": 0,
-    "time": 10,
-    "qualities": [
-      [{"id": "HAMMER", "level": 2}],
-      [{"id": "SCREW",  "level": 1}]
-    ],
-    "components": [
-      [["sheet_metal",  1]
-      ]
-    ],
-    "post_terrain": "t_metal_floor"
   },{
     "type": "construction",
     "description": "床を設置する(金属の側溝蓋)[ulaf]",
@@ -1295,7 +1278,7 @@
       [ [ "concrete", 1] ],
       [ [ "water", 1], [ "water_clean", 1] ]
     ],
-    "post_terrain": "t_grate"
+    "post_terrain": "t_sidewalk"
   },{
     "type": "construction",
     "description": "床を設置する(歩道)[ulaf]",
@@ -1340,5 +1323,32 @@
     ],
     "pre_terrain" : "t_pit",
     "post_terrain": "t_water_dp"
+  },{
+    "type": "construction",
+    "description": "金属柵付きの窓を設置する",
+    "category": "CONSTRUCT",
+    "difficulty": 2,
+    "time": 30,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2 }]
+    ],
+    "components": [
+      [["pipe" ,  10]]
+    ],
+    "post_terrain": "t_window_bars"
+  },{
+    "type": "construction",
+    "description": "金属柵付きの窓を設置する",
+    "category": "CONSTRUCT",
+    "difficulty": 2,
+    "time": 10,
+    "qualities": [
+      [{"id": "HAMMER", "level": 2 }]
+    ],
+    "components": [
+      [["glass_sheet" ,  1]]
+    ],
+    "pre_terrain" : "t_window_bars",
+    "post_terrain": "t_window_bars_alarm"
   }
 ]

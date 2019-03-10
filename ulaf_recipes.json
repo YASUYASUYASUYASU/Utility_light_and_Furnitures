@@ -18,9 +18,7 @@
       [["soldering_iron", 100],["toolset", 100]]
     ],
     "components": [
-       [["processor"       ,  1]]
-      ,[["RAM"             ,  1]]
-      ,[["cable"           ,  5]]
+      [["cable"           ,  5]]
       ,[["power_supply"    ,  1]]
       ,[["amplifier"       ,  1]]
       ,[["plastic_chunk"   , 10]]
