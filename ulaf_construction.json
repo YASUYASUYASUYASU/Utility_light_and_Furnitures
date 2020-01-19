@@ -1198,16 +1198,6 @@
     ],
     "post_terrain": "t_recycler"
   },{
-    "type" : "construction",
-    "description" : "土を掘りだす[ulaf]",
-    "category" : "OTHER",
-    "required_skills" : [ [ "survival", 0 ] ],
-    "time" : 30,
-    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
-    "byproducts": [ { "item": "dirt_lump", "count": [ 6, 12 ]  } ],
-    "pre_terrain" : "t_dirt",
-    "post_special" : "done_extract_maybe_revert_to_dirt"
-  },{
     "type": "construction",
     "description": "床を設置する(土)[ulaf]",
     "category": "FURN",
@@ -1217,7 +1207,7 @@
       [{"id": "DIG", "level": 1}]
     ],
     "components": [
-      [["dirt_lump",  1]]
+      [["material_soil",  10]]
     ],
     "post_terrain": "t_dirt"
   },{
@@ -1325,7 +1315,7 @@
     "post_terrain": "t_water_dp"
   },{
     "type": "construction",
-    "description": "金属柵付きの窓を設置する",
+    "description": "金属柵付きの窓を設置する[ulaf]",
     "category": "CONSTRUCT",
     "difficulty": 2,
     "time": 30,
@@ -1338,7 +1328,7 @@
     "post_terrain": "t_window_bars"
   },{
     "type": "construction",
-    "description": "金属柵付きの窓を設置する",
+    "description": "金属柵付きの窓を設置する[ulaf]",
     "category": "CONSTRUCT",
     "difficulty": 2,
     "time": 10,

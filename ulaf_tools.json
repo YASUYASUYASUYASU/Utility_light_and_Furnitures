@@ -3,7 +3,7 @@
     "id" : "aaf_utilty_light",
     "type": "TOOL",
     "symbol": "&",
-    "color": "lt gray",
+    "color": "light_gray",
     "name": "ユーティリティライト(自作)[util&Furnitures]",
     "description": "自作のユーティリティライトです。設置する事で光源となります。",
     "price": 800000,
@@ -12,18 +12,5 @@
     "volume": 18,
     "bashing": 10,
     "category": "tools"
-  },{
-    "id" : "dirt_lump",
-    "type": "TOOL",
-    "symbol": "&",
-    "color": "lt brown",
-    "name": "土の塊[util&Furnitures]",
-    "description": "地面から掘り出した土の塊です。建築メニューから土を撒く事で指定の場所を土タイルに変える事が出来ます",
-    "price": 10,
-    "material": ["freshdirt"],
-    "weight": 10000,
-    "volume": 18,
-    "bashing": 1,
-    "category": "spare_parts"
   }
 ]
