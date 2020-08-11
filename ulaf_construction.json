@@ -1146,20 +1146,6 @@
     "post_terrain": "f_floor_canvas"
   },{
     "type": "construction",
-    "id": "f_ladder",
-    "description": "脚立を作る",
-    "category": "FURN",
-    "difficulty": 2,
-    "time": 40,
-    "qualities": [
-      [{"id": "WRENCH", "level": 2}]
-    ],
-    "components": [
-      [["pipe"     ,  6]]
-    ],
-    "post_terrain": "f_ladder"
-  },{
-    "type": "construction",
     "id": "f_mannequin",
     "description": "マネキンを作る[ulaf]",
     "category": "FURN",
