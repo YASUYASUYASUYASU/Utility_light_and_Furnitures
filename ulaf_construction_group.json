@@ -1,0 +1,273 @@
+[
+  {
+    "type": "construction_group",
+    "id": "build_crafting_utilty",
+    "name": "ユーティリティライトの設置"
+  },{
+    "type": "construction_group",
+    "id": "build_t_railing_h",
+    "name": "手すり(タイプ1)を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_railing_v",
+    "name": "手すり(タイプ2)を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_sandbox",
+    "name": "砂場を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "t_slide",
+    "name": "滑り台を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_monkey_bars",
+    "name": "ジャングルジムを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_gas_tank",
+    "name": "ガソリンタンクを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_gas_pump",
+    "name": "給油ポンプ(故障)を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_column",
+    "name": "柱を作る"
+  },{
+    "type": "construction_group",
+    "id": "build_t_little_column",
+    "name": "細い柱を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_sewage_pipe",
+    "name": "下水管を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_sewage_pump",
+    "name": "下水ポンプを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_vat",
+    "name": "培養槽を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_ladder_up",
+    "name": "はしご(昇り)を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_ladder_down",
+    "name": "はしご(下り)を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_slot_machine",
+    "name": "スロットマシンを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_sai_box",
+    "name": "電気通信機器収納棚を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_support_l",
+    "name": "大型金属柱を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_support_s",
+    "name": "小型金属柱を作る"
+  },{
+    "type": "construction_group",
+    "id": "build_t_oil_circ_brkr_l",
+    "name": "HV油遮断機を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_oil_circ_brkr_s",
+    "name": "小型油遮断機を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_switchgear_l",
+    "name": "大型開閉装置を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_switchgear_s",
+    "name": "小型開閉装置を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_lgtn_arrest",
+    "name": "避雷器を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_station_disc",
+    "name": "断路器を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_potential_trans",
+    "name": "計器用変圧器を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_guardrail_bg_dp",
+    "name": "ガードレールを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_conveyor",
+    "name": "ベルトコンベアを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_machinery_light",
+    "name": "軽機械を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_machinery_heavy",
+    "name": "重機械を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_machinery_old",
+    "name": "古い機械を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_machinery_electronic",
+    "name": "電子機械を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_window_stained_green",
+    "name": "長いステンドガラス窓(緑)を設置する[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_window_stained_red",
+    "name": "長いステンドガラス窓(赤)を設置する[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_window_stained_blue",
+    "name": "長いステンドガラス窓(青)を設置する[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_armchair",
+    "name": "肘掛け椅子を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_exercise",
+    "name": "運動器具を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_glass_fridge",
+    "name": "冷蔵庫(ガラスドア)を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_bigmirror",
+    "name": "全身鏡を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_bigmirror_b",
+    "name": "壊れた全身鏡を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_dumpster",
+    "name": "大型ごみ箱を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_dive_block",
+    "name": "飛び込み台を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_arcade_machine",
+    "name": "アーケード筐体を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_pinball_machine",
+    "name": "ピンボールマシンを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_ergometer",
+    "name": "エルゴメーターを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_treadmill",
+    "name": "ランニングマシーンを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_displaycase",
+    "name": "陳列ケースを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_displaycase_b",
+    "name": "壊れた陳列ケースを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_floor_canvas",
+    "name": "サンドバッグを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_mannequin",
+    "name": "マネキンを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_oven",
+    "name": "オーブンを作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_statue",
+    "name": "彫像を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_grave_stone",
+    "name": "墓石を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_f_tatami",
+    "name": "畳を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_recycler",
+    "name": "金属圧縮機を作る[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_dirt",
+    "name": "床を設置する(土)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_floor",
+    "name": "床を設置する(木)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_floor_primitive",
+    "name": "床を設置する(木 質素)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_grate",
+    "name": "床を設置する(金属の側溝蓋)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_thconc_floor",
+    "name": "床を設置する(コンクリート)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_sidewalk",
+    "name": "床を設置する(歩道)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_water_sh",
+    "name": "水路を引く(浅水域)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_water_dp",
+    "name": "水路を引く(深水域)[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_window_bars",
+    "name": "金属柵付きの窓を設置する[ulaf]"
+  },{
+    "type": "construction_group",
+    "id": "build_t_window_bars_alarm",
+    "name": "金属柵付きの窓を設置する[ulaf]"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_autodoc",
+    "name": "オートドクを建築[ulaf]"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_autodoc_couch",
+    "name": "オートドク用ベッドを建築[ulaf]"
+  }
+]

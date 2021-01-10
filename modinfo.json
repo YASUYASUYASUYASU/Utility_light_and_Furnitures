@@ -1,11 +1,10 @@
 [
     {
          "type"        : "MOD_INFO",
-         "mod-type"    : "SUPPLEMENTAL",
          "ident"       : "Utility_light_and_Furnitures",
          "name"        : "追加 - ユーティリティライトと建築物追加",
          "authors"     : ["YasuYasu"],
-         "maintainers ": ["YasuYasu"],
+         "maintainers": [ "YasuYasu" ],
          "description" : "ユーティリティライトやステンドグラスなどの家具・建築物を設置できるようにします。このmodで追加された建築物、アイテムは[ulaf]が付きます",
          "category"    : "buildings",
          "dependencies": ["dda"]

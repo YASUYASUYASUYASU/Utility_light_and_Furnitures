@@ -2,7 +2,7 @@
   {
     "type": "construction",
     "id": "crafting_utilty",
-    "description": "ユーティリティライトを設置する[ulaf]",
+    "group": "build_crafting_utilty",
     "category": "FURN",
     "difficulty": 0,
     "time": 10,
@@ -16,7 +16,7 @@
   },{
     "type": "construction",
     "id": "t_railing_h",
-    "description": "手すり(タイプ1)を作る[ulaf]",
+    "group": "build_t_railing_h",
     "category": "FURN",
     "difficulty": 3,
     "time": 50,
@@ -39,7 +39,7 @@
   },{
     "type": "construction",
     "id": "t_railing_v",
-    "description": "手すり(タイプ2)を作る[ulaf]",
+    "group": "build_t_railing_v",
     "category": "FURN",
     "difficulty": 3,
     "time": 50,
@@ -62,7 +62,7 @@
   },{
     "type": "construction",
     "id": "t_sandbox",
-    "description": "砂場を作る[ulaf]",
+    "group": "build_t_sandbox",
     "category": "FURN",
     "difficulty": 0,
     "time": 80,
@@ -76,7 +76,7 @@
   },{
     "type": "construction",
     "id": "t_slide",
-    "description": "滑り台を作る[ulaf]",
+    "group": "t_slide",
     "category": "FURN",
     "difficulty": 3,
     "time": 100,
@@ -96,7 +96,7 @@
   },{
     "type": "construction",
     "id": "t_monkey_bars",
-    "description": "ジャングルジムを作る[ulaf]",
+    "group": "build_t_monkey_bars",
     "category": "FURN",
     "difficulty": 3,
     "time": 100,
@@ -115,7 +115,7 @@
   },{
     "type": "construction",
     "id": "t_gas_tank",
-    "description": "ガソリンタンクを作る[ulaf]",
+    "group": "build_t_gas_tank",
     "category": "FURN",
     "difficulty": 3,
     "time": 70,
@@ -137,7 +137,7 @@
   },{
     "type": "construction",
     "id": "t_gas_pump",
-    "description": "給油ポンプ(故障)を作る[ulaf]",
+    "group": "build_t_gas_pump",
     "category": "FURN",
     "difficulty": 3,
     "time": 80,
@@ -157,7 +157,7 @@
   },{
     "type": "construction",
     "id": "t_column",
-    "description": "柱を作る",
+    "group": "build_t_column",
     "category": "FURN",
     "difficulty": 3,
     "time": 70,
@@ -171,7 +171,7 @@
   },{
     "type": "construction",
     "id": "t_little_column",
-    "description": "細い柱を作る[ulaf]",
+    "group": "build_t_little_column",
     "category": "FURN",
     "difficulty": 3,
     "time": 70,
@@ -184,7 +184,7 @@
     "post_terrain": "t_little_column"
   },{
     "type": "construction",
-    "description": "下水管を作る[ulaf]",
+    "group": "build_t_sewage_pipe",
     "id": "t_sewage_pipe",
     "category": "FURN",
     "difficulty": 3,
@@ -207,7 +207,7 @@
   },{
     "type": "construction",
     "id": "t_sewage_pump",
-    "description": "下水ポンプを作る[ulaf]",
+    "group": "build_t_sewage_pump",
     "category": "FURN",
     "difficulty": 3,
     "time": 80,
@@ -231,7 +231,7 @@
   },{
     "type": "construction",
     "id": "t_vat",
-    "description": "培養槽を作る[ulaf]",
+    "group": "build_t_vat",
     "category": "FURN",
     "difficulty": 3,
     "time": 60,
@@ -254,7 +254,7 @@
   },{
     "type": "construction",
     "id": "t_ladder_up",
-    "description": "はしご(昇り)を作る[ulaf]",
+    "group": "build_t_ladder_up",
     "category": "FURN",
     "difficulty": 2,
     "time": 50,
@@ -273,7 +273,7 @@
   },{
     "type": "construction",
     "id": "t_ladder_down",
-    "description": "はしご(下り)を作る[ulaf]",
+    "group": "build_t_ladder_down",
     "category": "FURN",
     "difficulty": 2,
     "time": 50,
@@ -292,7 +292,7 @@
   },{
     "type": "construction",
     "id": "t_slot_machine",
-    "description": "スロットマシンを作る[ulaf]",
+    "group": "build_t_slot_machine",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -323,7 +323,7 @@
   },{
     "type": "construction",
     "id": "t_sai_box",
-    "description": "電気通信機器収納棚を作る[ulaf]",
+    "group": "build_t_sai_box",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -353,7 +353,7 @@
   },{
     "type": "construction",
     "id": "t_support_l",
-    "description": "大型金属柱を作る[ulaf]",
+    "group": "build_t_support_l",
     "category": "FURN",
     "difficulty": 5,
     "time": 60,
@@ -377,7 +377,7 @@
   },{
     "type": "construction",
     "id": "t_support_s",
-    "description": "小型金属柱を作る",
+    "group": "build_t_support_s",
     "category": "FURN",
     "difficulty": 5,
     "time": 60,
@@ -401,7 +401,7 @@
   },{
     "type": "construction",
     "id": "t_oil_circ_brkr_l",
-    "description": "HV油遮断機を作る[ulaf]",
+    "group": "build_t_oil_circ_brkr_l",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -429,7 +429,7 @@
   },{
     "type": "construction",
     "id": "t_oil_circ_brkr_s",
-    "description": "小型油遮断機を作る[ulaf]",
+    "group": "build_t_oil_circ_brkr_s",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
@@ -457,7 +457,7 @@
   },{
     "type": "construction",
     "id": "t_switchgear_l",
-    "description": "大型開閉装置を作る[ulaf]",
+    "group": "build_t_switchgear_l",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -488,7 +488,7 @@
   },{
     "type": "construction",
     "id": "t_switchgear_s",
-    "description": "小型開閉装置を作る[ulaf]",
+    "group": "build_t_switchgear_s",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
@@ -519,7 +519,7 @@
   },{
     "type": "construction",
     "id": "t_lgtn_arrest",
-    "description": "避雷器を作る[ulaf]",
+    "group": "build_t_lgtn_arrest",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -545,7 +545,7 @@
   },{
     "type": "construction",
     "id": "t_station_disc",
-    "description": "断路器を作る[ulaf]",
+    "group": "build_t_station_disc",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -571,7 +571,7 @@
   },{
     "type": "construction",
     "id": "t_potential_trans",
-    "description": "計器用変圧器を作る[ulaf]",
+    "group": "build_t_potential_trans",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -598,7 +598,7 @@
   },{
     "type": "construction",
     "id": "t_guardrail_bg_dp",
-    "description": "ガードレールを作る[ulaf]",
+    "group": "build_t_guardrail_bg_dp",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
@@ -621,7 +621,7 @@
   },{
     "type": "construction",
     "id": "t_conveyor",
-    "description": "ベルトコンベアを作る[ulaf]",
+    "group": "build_t_conveyor",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -647,7 +647,7 @@
   },{
     "type": "construction",
     "id": "t_machinery_light",
-    "description": "軽機械を作る[ulaf]",
+    "group": "build_t_machinery_light",
     "category": "FURN",
     "difficulty": 5,
     "time": 70,
@@ -678,7 +678,7 @@
   },{
     "type": "construction",
     "id": "t_machinery_heavy",
-    "description": "重機械を作る[ulaf]",
+    "group": "build_t_machinery_heavy",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -712,7 +712,7 @@
   },{
     "type": "construction",
     "id": "t_machinery_old",
-    "description": "古い機械を作る[ulaf]",
+    "group": "build_t_machinery_old",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -746,7 +746,7 @@
   },{
     "type": "construction",
     "id": "t_machinery_electronic",
-    "description": "電子機械を作る[ulaf]",
+    "group": "build_t_machinery_electronic",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -782,7 +782,7 @@
   },{
     "type": "construction",
     "id": "t_window_stained_green",
-    "description": "長いステンドガラス窓(緑)を設置する[ulaf]",
+    "group": "build_t_window_stained_green",
     "category": "FURN",
     "difficulty": 1,
     "time": 20,
@@ -793,7 +793,7 @@
   },{
     "type": "construction",
     "id": "t_window_stained_red",
-    "description": "長いステンドガラス窓(赤)を設置する[ulaf]",
+    "group": "build_t_window_stained_red",
     "category": "FURN",
     "difficulty": 1,
     "time": 20,
@@ -804,7 +804,7 @@
   },{
     "type": "construction",
     "id": "t_window_stained_blue",
-    "description": "長いステンドガラス窓(青)を設置する[ulaf]",
+    "group": "build_t_window_stained_blue",
     "category": "FURN",
     "difficulty": 1,
     "time": 100,
@@ -815,7 +815,7 @@
   },{
     "type": "construction",
     "id": "f_armchair",
-    "description": "肘掛け椅子を作る[ulaf]",
+    "group": "build_f_armchair",
     "category": "FURN",
     "difficulty": 4,
     "time": 30,
@@ -831,7 +831,7 @@
   },{
     "type": "construction",
     "id": "f_exercise",
-    "description": "運動器具を作る[ulaf]",
+    "group": "build_f_exercise",
     "category": "FURN",
     "difficulty": 4,
     "time": 80,
@@ -856,7 +856,7 @@
   },{
     "type": "construction",
     "id": "f_glass_fridge",
-    "description": "冷蔵庫(ガラスドア)を作る[ulaf]",
+    "group": "build_f_glass_fridge",
     "category": "FURN",
     "difficulty": 3,
     "time": 50,
@@ -882,7 +882,7 @@
   },{
     "type": "construction",
     "id": "f_bigmirror",
-    "description": "全身鏡を作る[ulaf]",
+    "group": "build_f_bigmirror",
     "category": "FURN",
     "difficulty": 4,
     "time": 60,
@@ -902,7 +902,7 @@
   },{
     "type": "construction",
     "id": "f_bigmirror_b",
-    "description": "壊れた全身鏡を作る[ulaf]",
+    "group": "build_f_bigmirror_b",
     "category": "FURN",
     "difficulty": 4,
     "time": 60,
@@ -922,7 +922,7 @@
   },{
     "type": "construction",
     "id": "f_dumpster",
-    "description": "大型ごみ箱を作る[ulaf]",
+    "group": "build_f_dumpster",
     "category": "FURN",
     "difficulty": 2,
     "time": 50,
@@ -944,7 +944,7 @@
   },{
     "type": "construction",
     "id": "f_dive_block",
-    "description": "飛び込み台を作る[ulaf]",
+    "group": "build_f_dive_block",
     "category": "FURN",
     "difficulty": 1,
     "time": 40,
@@ -959,7 +959,7 @@
   },{
     "type": "construction",
     "id": "f_arcade_machine",
-    "description": "アーケード筐体を作る[ulaf]",
+    "group": "build_f_arcade_machine",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -989,7 +989,7 @@
   },{
     "type": "construction",
     "id": "f_pinball_machine",
-    "description": "ピンボールマシンを作る[ulaf]",
+    "group": "build_f_pinball_machine",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -1023,7 +1023,7 @@
   },{
     "type": "construction",
     "id": "f_ergometer",
-    "description": "エルゴメーターを作る[ulaf]",
+    "group": "build_f_treadmill",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -1056,7 +1056,7 @@
   },{
     "type": "construction",
     "id": "f_treadmill",
-    "description": "ランニングマシーンを作る[ulaf]",
+    "group": "build_f_treadmill",
     "category": "FURN",
     "difficulty": 5,
     "time": 80,
@@ -1084,7 +1084,7 @@
   },{
     "type": "construction",
     "id": "f_displaycase",
-    "description": "陳列ケースを作る[ulaf]",
+    "group": "build_f_displaycase",
     "category": "FURN",
     "difficulty": 2,
     "time": 40,
@@ -1104,7 +1104,7 @@
   },{
     "type": "construction",
     "id": "f_displaycase_b",
-    "description": "壊れた陳列ケースを作る[ulaf]",
+    "group": "build_f_displaycase_b",
     "category": "FURN",
     "difficulty": 2,
     "time": 40,
@@ -1124,7 +1124,7 @@
   },{
     "type": "construction",
     "id": "f_floor_canvas",
-    "description": "サンドバッグを作る[ulaf]",
+    "group": "build_f_floor_canvas",
     "category": "FURN",
     "difficulty": 2,
     "time": 30,
@@ -1147,7 +1147,7 @@
   },{
     "type": "construction",
     "id": "f_mannequin",
-    "description": "マネキンを作る[ulaf]",
+    "group": "build_f_mannequin",
     "category": "FURN",
     "difficulty": 1,
     "time": 30,
@@ -1161,7 +1161,7 @@
   },{
     "type": "construction",
     "id": "f_oven",
-    "description": "オーブンを作る[ulaf]",
+    "group": "build_f_oven",
     "category": "FURN",
     "difficulty": 3,
     "time": 30,
@@ -1181,7 +1181,7 @@
   },{
     "type": "construction",
     "id": "f_statue",
-    "description": "彫像を作る[ulaf]",
+    "group": "build_f_statue",
     "category": "FURN",
     "difficulty": 4,
     "time": 30,
@@ -1196,7 +1196,7 @@
   },{
     "type": "construction",
     "id": "f_grave_stone",
-    "description": "墓石を作る[ulaf]",
+    "group": "build_f_grave_stone",
     "category": "FURN",
     "difficulty": 1,
     "time": 30,
@@ -1212,7 +1212,7 @@
   },{
     "type": "construction",
     "id": "f_tatami",
-    "description": "畳を作る[ulaf]",
+    "group": "build_f_tatami",
     "category": "FURN",
     "difficulty": 1,
     "time": 30,
@@ -1225,7 +1225,7 @@
   },{
     "type": "construction",
     "id": "t_recycler",
-    "description": "金属圧縮機を作る[ulaf]",
+    "group": "build_t_recycler",
     "category": "FURN",
     "difficulty": 6,
     "time": 30,
@@ -1242,7 +1242,7 @@
   },{
     "type": "construction",
     "id": "t_dirt",
-    "description": "床を設置する(土)[ulaf]",
+    "group": "build_t_dirt",
     "category": "FURN",
     "difficulty": 0,
     "time": 10,
@@ -1256,7 +1256,7 @@
   },{
     "type": "construction",
     "id": "t_floor",
-    "description": "床を設置する(木)[ulaf]",
+    "group": "build_t_floor",
     "category": "FURN",
     "difficulty": 0,
     "time": 10,
@@ -1271,7 +1271,7 @@
   },{
     "type": "construction",
     "id": "t_floor_primitive",
-    "description": "床を設置する(木 質素)[ulaf]",
+    "group": "build_t_floor_primitive",
     "category": "FURN",
     "difficulty": 0,
     "time": 10,
@@ -1286,7 +1286,7 @@
   },{
     "type": "construction",
     "id": "t_grate",
-    "description": "床を設置する(金属の側溝蓋)[ulaf]",
+    "group": "build_t_grate",
     "category": "FURN",
     "difficulty": 0,
     "time": 10,
@@ -1302,10 +1302,9 @@
   },{
     "type": "construction",
     "id": "t_thconc_floor",
-    "description": "床を設置する(コンクリート)[ulaf]",
+    "group": "build_t_thconc_floor",
     "category": "FURN",
-    "required_skills" : [ [ "fabrication", 4 ] ],
-    "difficulty": 0,
+    "required_skills" : [ [ "fabrication", 2 ] ],
     "time": 40,
     "tools": [ [ [ "con_mix", 10 ] ] ],
     "qualities": [
@@ -1319,10 +1318,9 @@
   },{
     "type": "construction",
     "id": "t_sidewalk",
-    "description": "床を設置する(歩道)[ulaf]",
+    "group": "build_t_sidewalk",
     "category": "FURN",
-    "required_skills" : [ [ "fabrication", 4 ] ],
-    "difficulty": 0,
+    "required_skills" : [ [ "fabrication", 2 ] ],
     "time": 40,
     "tools": [ [ [ "con_mix", 10 ] ] ],
     "qualities": [
@@ -1336,7 +1334,7 @@
   },{
     "type": "construction",
     "id": "t_water_sh",
-    "description": "水路を引く(浅水域)[ulaf]",
+    "group": "build_t_water_sh",
     "category": "DIG",
     "difficulty": 0,
     "time": 30,
@@ -1351,7 +1349,7 @@
   },{
     "type": "construction",
     "id": "t_water_dp",
-    "description": "水路を引く(深水域)[ulaf]",
+    "group": "build_t_water_dp",
     "category": "DIG",
     "difficulty": 0,
     "time": 30,
@@ -1366,7 +1364,7 @@
   },{
     "type": "construction",
     "id": "t_window_bars",
-    "description": "金属柵付きの窓を設置する[ulaf]",
+    "group": "build_t_window_bars",
     "category": "CONSTRUCT",
     "difficulty": 2,
     "time": 30,
@@ -1380,7 +1378,7 @@
   },{
     "type": "construction",
     "id": "t_window_bars_alarm",
-    "description": "金属柵付きの窓を設置する[ulaf]",
+    "group": "build_t_window_bars_alarm",
     "category": "CONSTRUCT",
     "difficulty": 2,
     "time": 10,
@@ -1392,5 +1390,44 @@
     ],
     "pre_terrain" : "t_window_bars",
     "post_terrain": "t_window_bars_alarm"
+  },
+    {
+    "id": "Autodoc_v1",
+    "type": "construction",
+    "group": "build_autodoc",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 3 ] ],
+    "time": 120,
+    "tools": [ [ [ "oxy_torch", 4 ], [ "welder", 20 ], [ "welder_crude", 30 ], [ "toolset", 30 ] ] ],
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ], [ { "id": "GLARE", "level": 2 } ] ],
+    "components": [
+      [ [ "pipe", 6 ] ],
+      [ [ "sheet_metal", 2 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "RAM", 8 ] ],
+      [ [ "cable", 1 ] ],
+      [ [ "small_lcd_screen", 2 ] ],
+      [ [ "circuit", 10 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "amplifier", 4 ] ]
+    ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_autodoc"
+  },
+  {
+    "id": "Autodoc_couch_v1",
+    "type": "construction",
+    "group": "build_autodoc_couch",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 4 ], [ "tailor", 4 ] ],
+    "time": 60,
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 1 } ] ],
+    "components": [
+      [ [ "2x4", 12 ] ],
+      [ [ "nail", 10 ] ],
+      [ [ "sheet", 4 ], [ "blanket", 2 ], [ "down_blanket", 2 ], [ "fur_blanket", 2 ] ]
+    ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_autodoc_couch"
   }
 ]
