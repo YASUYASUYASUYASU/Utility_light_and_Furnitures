@@ -269,5 +269,10 @@
     "type": "construction_group",
     "id": "build_autodoc_couch",
     "name": "オートドク用ベッドを建築[ulaf]"
+  },
+  {
+    "type": "construction_group",
+    "id": "build_gutter_downspout",
+    "name": "縦樋を建築[ulaf]"
   }
 ]
