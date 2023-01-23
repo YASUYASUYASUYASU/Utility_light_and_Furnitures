@@ -3,9 +3,9 @@
     "type": "construction",
     "id": "crafting_utilty",
     "group": "build_crafting_utilty",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 0,
-    "time": 10,
+    "time": "10 m",
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
     ],
@@ -17,9 +17,9 @@
     "type": "construction",
     "id": "t_railing_h",
     "group": "build_t_railing_h",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 50,
+    "time": "50 m",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -40,9 +40,9 @@
     "type": "construction",
     "id": "t_railing_v",
     "group": "build_t_railing_v",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 50,
+    "time": "50 m",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -63,9 +63,9 @@
     "type": "construction",
     "id": "t_sandbox",
     "group": "build_t_sandbox",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 0,
-    "time": 80,
+    "time": "30 m",
     "qualities": [
       [{"id": "DIG", "level": 2}]
     ],
@@ -77,9 +77,9 @@
     "type": "construction",
     "id": "t_slide",
     "group": "t_slide",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 100,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -97,9 +97,9 @@
     "type": "construction",
     "id": "t_monkey_bars",
     "group": "build_t_monkey_bars",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 100,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -114,33 +114,11 @@
     "post_terrain": "t_monkey_bars"
   },{
     "type": "construction",
-    "id": "t_gas_tank",
-    "group": "build_t_gas_tank",
-    "category": "FURN",
+    "id": "t_gas_pump_smashed",
+    "group": "build_t_gas_pump_smashed",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 70,
-    "tools": [
-      [
-       ["oxy_torch"   ,  20],
-       ["welder"      , 100],
-       ["welder_crude", 150],
-       ["toolset"     , 150]
-      ]
-    ],
-    "qualities": [
-      [{"id": "HAMMER", "level": 2}]
-    ],
-    "components": [
-      [["sheet_metal" ,  4]]
-    ],
-    "post_terrain": "t_gas_tank"
-  },{
-    "type": "construction",
-    "id": "t_gas_pump",
-    "group": "build_t_gas_pump",
-    "category": "FURN",
-    "difficulty": 3,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -153,14 +131,34 @@
       [["sheet_metal"   ,  4]],
       [["hose"          ,  1]]
     ],
-    "post_terrain": "t_gas_pump"
+    "post_terrain": "t_gas_pump_smashed"
+  },{
+    "type": "construction",
+    "id": "t_gas_pump",
+    "group": "build_t_gas_pump",
+    "category": "CONSTRUCT",
+    "difficulty": 3,
+    "time": "1 h",
+    "tools": [
+      [
+       ["oxy_torch"   ,  20],
+       ["welder"      , 100],
+       ["welder_crude", 150],
+       ["toolset"     , 150]
+      ]
+    ],
+    "components": [
+      [["sheet_metal"   ,  4]],
+      [["hose"          ,  1]]
+    ],
+    "post_terrain": "t_gas_pump_a"
   },{
     "type": "construction",
     "id": "t_column",
     "group": "build_t_column",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 70,
+    "time": "1 h",
     "qualities": [
       [{"id": "SMOOTH", "level": 1}]
     ],
@@ -172,9 +170,9 @@
     "type": "construction",
     "id": "t_little_column",
     "group": "build_t_little_column",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 70,
+    "time": "1 h",
     "qualities": [
       [{"id": "SMOOTH", "level": 1}]
     ],
@@ -186,9 +184,9 @@
     "type": "construction",
     "group": "build_t_sewage_pipe",
     "id": "t_sewage_pipe",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -208,9 +206,9 @@
     "type": "construction",
     "id": "t_sewage_pump",
     "group": "build_t_sewage_pump",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -232,9 +230,9 @@
     "type": "construction",
     "id": "t_vat",
     "group": "build_t_vat",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 60,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -255,9 +253,9 @@
     "type": "construction",
     "id": "t_ladder_up",
     "group": "build_t_ladder_up",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 2,
-    "time": 50,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -274,9 +272,9 @@
     "type": "construction",
     "id": "t_ladder_down",
     "group": "build_t_ladder_down",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 2,
-    "time": 50,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -293,9 +291,9 @@
     "type": "construction",
     "id": "t_slot_machine",
     "group": "build_t_slot_machine",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -324,9 +322,9 @@
     "type": "construction",
     "id": "t_sai_box",
     "group": "build_t_sai_box",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -354,9 +352,9 @@
     "type": "construction",
     "id": "t_support_l",
     "group": "build_t_support_l",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 60,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -378,9 +376,9 @@
     "type": "construction",
     "id": "t_support_s",
     "group": "build_t_support_s",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 60,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -402,9 +400,9 @@
     "type": "construction",
     "id": "t_oil_circ_brkr_l",
     "group": "build_t_oil_circ_brkr_l",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -430,9 +428,9 @@
     "type": "construction",
     "id": "t_oil_circ_brkr_s",
     "group": "build_t_oil_circ_brkr_s",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 70,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -458,9 +456,9 @@
     "type": "construction",
     "id": "t_switchgear_l",
     "group": "build_t_switchgear_l",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -489,9 +487,9 @@
     "type": "construction",
     "id": "t_switchgear_s",
     "group": "build_t_switchgear_s",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 70,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -520,9 +518,9 @@
     "type": "construction",
     "id": "t_lgtn_arrest",
     "group": "build_t_lgtn_arrest",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -546,9 +544,9 @@
     "type": "construction",
     "id": "t_station_disc",
     "group": "build_t_station_disc",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -572,9 +570,9 @@
     "type": "construction",
     "id": "t_potential_trans",
     "group": "build_t_potential_trans",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -599,9 +597,9 @@
     "type": "construction",
     "id": "t_guardrail_bg_dp",
     "group": "build_t_guardrail_bg_dp",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 70,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -622,9 +620,9 @@
     "type": "construction",
     "id": "t_conveyor",
     "group": "build_t_conveyor",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -648,9 +646,9 @@
     "type": "construction",
     "id": "t_machinery_light",
     "group": "build_t_machinery_light",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 70,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -679,9 +677,9 @@
     "type": "construction",
     "id": "t_machinery_heavy",
     "group": "build_t_machinery_heavy",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -713,9 +711,9 @@
     "type": "construction",
     "id": "t_machinery_old",
     "group": "build_t_machinery_old",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -747,9 +745,9 @@
     "type": "construction",
     "id": "t_machinery_electronic",
     "group": "build_t_machinery_electronic",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -783,9 +781,9 @@
     "type": "construction",
     "id": "t_window_stained_green",
     "group": "build_t_window_stained_green",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 1,
-    "time": 20,
+    "time": "15 m",
     "components": [
       [["glass_sheet"   ,  1]]
     ],
@@ -794,9 +792,9 @@
     "type": "construction",
     "id": "t_window_stained_red",
     "group": "build_t_window_stained_red",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 1,
-    "time": 20,
+    "time": "15 m",
     "components": [
       [["glass_sheet"   ,  1]]
     ],
@@ -805,9 +803,9 @@
     "type": "construction",
     "id": "t_window_stained_blue",
     "group": "build_t_window_stained_blue",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 1,
-    "time": 100,
+    "time": "15 m",
     "components": [
       [["glass_sheet"   ,  1]]
     ],
@@ -816,9 +814,9 @@
     "type": "construction",
     "id": "f_armchair",
     "group": "build_f_armchair",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 4,
-    "time": 30,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
     ],
@@ -830,36 +828,11 @@
     "post_terrain": "f_armchair"
   },{
     "type": "construction",
-    "id": "f_exercise",
-    "group": "build_f_exercise",
-    "category": "FURN",
-    "difficulty": 4,
-    "time": 80,
-    "tools": [
-      [
-       ["oxy_torch"   ,  20],
-       ["welder"      , 100],
-       ["welder_crude", 150],
-       ["toolset"     , 150]
-      ]
-    ],
-    "qualities": [
-      [{"id": "WRENCH", "level": 2}]
-    ],
-    "components": [
-      [["pipe"          ,   1]],
-      [["steel_chunk"   ,   1]],
-      [["scrap"         ,   6]],
-      [["lead"          ,2000]]
-    ],
-    "post_terrain": "f_exercise"
-  },{
-    "type": "construction",
     "id": "f_glass_fridge",
     "group": "build_f_glass_fridge",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 3,
-    "time": 50,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -885,7 +858,7 @@
     "group": "build_f_bigmirror",
     "category": "FURN",
     "difficulty": 4,
-    "time": 60,
+    "time": "30 m",
     "tools": [
       [["polisher", 20]]
     ],
@@ -905,7 +878,7 @@
     "group": "build_f_bigmirror_b",
     "category": "FURN",
     "difficulty": 4,
-    "time": 60,
+    "time": "1 h",
     "tools": [
       [["polisher", 20]]
     ],
@@ -921,33 +894,11 @@
     "post_terrain": "f_bigmirror_b"
   },{
     "type": "construction",
-    "id": "f_dumpster",
-    "group": "build_f_dumpster",
-    "category": "FURN",
-    "difficulty": 2,
-    "time": 50,
-    "tools": [
-      [
-       ["oxy_torch"   ,  20],
-       ["welder"      , 100],
-       ["welder_crude", 150],
-       ["toolset"     , 150]
-      ]
-    ],
-    "qualities": [
-      [{"id": "HAMMER", "level": 2}]
-    ],
-    "components": [
-      [["sheet_metal"   ,  4]]
-    ],
-    "post_terrain": "f_dumpster"
-  },{
-    "type": "construction",
     "id": "f_dive_block",
     "group": "build_f_dive_block",
     "category": "FURN",
     "difficulty": 1,
-    "time": 40,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
     ],
@@ -962,7 +913,7 @@
     "group": "build_f_arcade_machine",
     "category": "FURN",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -992,7 +943,7 @@
     "group": "build_f_pinball_machine",
     "category": "FURN",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -1022,44 +973,11 @@
     "post_terrain": "f_pinball_machine"
   },{
     "type": "construction",
-    "id": "f_ergometer",
-    "group": "build_f_treadmill",
-    "category": "FURN",
-    "difficulty": 5,
-    "time": 80,
-    "tools": [
-      [
-       ["oxy_torch"   ,  20],
-       ["welder"      , 100],
-       ["welder_crude", 150],
-       ["toolset"     , 150]
-      ]
-    ],
-    "qualities": [
-      [{"id": "WRENCH", "level": 2}],
-      [{"id": "HAMMER", "level": 2}]
-    ],
-    "components": [
-      [["foot_crank"         ,  1]],
-      [["plastic_chunk"      , 10]],
-      [["scrap"              ,  4]],
-      [["chain"              ,  1]],
-      [["pipe"               ,  5]],
-      [["saddle"             ,  1]],
-      [["wheel_small"        ,  1]],
-      [["small_lcd_screen"   ,  1]],
-      [["processor"          ,  1]],
-      [["RAM"                ,  1]],
-      [["nail"               ,  8]]
-    ],
-    "post_terrain": "f_ergometer"
-  },{
-    "type": "construction",
     "id": "f_treadmill",
     "group": "build_f_treadmill",
     "category": "FURN",
     "difficulty": 5,
-    "time": 80,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -1087,7 +1005,7 @@
     "group": "build_f_displaycase",
     "category": "FURN",
     "difficulty": 2,
-    "time": 40,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -1107,7 +1025,7 @@
     "group": "build_f_displaycase_b",
     "category": "FURN",
     "difficulty": 2,
-    "time": 40,
+    "time": "1 h",
     "tools": [
       [
        ["oxy_torch"   ,  20],
@@ -1123,34 +1041,11 @@
     "post_terrain": "f_displaycase_b"
   },{
     "type": "construction",
-    "id": "f_floor_canvas",
-    "group": "build_f_floor_canvas",
-    "category": "FURN",
-    "difficulty": 2,
-    "time": 30,
-    "tools": [
-      [
-       ["oxy_torch"   ,  20],
-       ["welder"      , 100],
-       ["welder_crude", 150],
-       ["toolset"     , 150]
-      ]
-    ],
-    "qualities": [
-      [{"id": "HAMMER", "level": 2}]
-    ],
-    "components": [
-      [["chain"     ,  3]],
-      [["leather"   , 12]],
-      [["rag"       , 18]]    ],
-    "post_terrain": "f_floor_canvas"
-  },{
-    "type": "construction",
     "id": "f_mannequin",
     "group": "build_f_mannequin",
     "category": "FURN",
     "difficulty": 1,
-    "time": 30,
+    "time": "1 h",
     "qualities": [
       [{"id": "SAW_W", "level": 1}]
     ],
@@ -1160,31 +1055,11 @@
     "post_terrain": "f_mannequin"
   },{
     "type": "construction",
-    "id": "f_oven",
-    "group": "build_f_oven",
-    "category": "FURN",
-    "difficulty": 3,
-    "time": 30,
-    "qualities": [
-      [{"id": "HAMMER", "level": 2}],
-      [{"id": "SCREW",  "level": 1}]
-    ],
-    "components": [
-      [["sheet_metal",  6]],
-      [["scrap"      ,  6]],
-      [["steel_chunk",  3]],
-      [["element"    ,  4]],
-      [["cable"      ,  3]],
-      [["pilot_light",  1]]
-    ],
-    "post_terrain": "f_oven"
-  },{
-    "type": "construction",
     "id": "f_statue",
     "group": "build_f_statue",
     "category": "FURN",
     "difficulty": 4,
-    "time": 30,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}],
       [{"id": "CHISEL", "level": 3}]
@@ -1199,7 +1074,7 @@
     "group": "build_f_grave_stone",
     "category": "FURN",
     "difficulty": 1,
-    "time": 30,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}],
       [{"id": "CHISEL", "level": 3}]
@@ -1215,7 +1090,7 @@
     "group": "build_f_tatami",
     "category": "FURN",
     "difficulty": 1,
-    "time": 30,
+    "time": "1 h",
     "components": [
       [["straw_pile",  8]],
       [["rag"       ,  4]],
@@ -1226,9 +1101,9 @@
     "type": "construction",
     "id": "t_recycler",
     "group": "build_t_recycler",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 6,
-    "time": 30,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}],
       [{"id": "SCREW",  "level": 1}]
@@ -1243,9 +1118,9 @@
     "type": "construction",
     "id": "t_dirt",
     "group": "build_t_dirt",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 0,
-    "time": 10,
+    "time": "1 h",
     "qualities": [
       [{"id": "DIG", "level": 1}]
     ],
@@ -1257,9 +1132,9 @@
     "type": "construction",
     "id": "t_floor",
     "group": "build_t_floor",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 0,
-    "time": 10,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
     ],
@@ -1272,9 +1147,9 @@
     "type": "construction",
     "id": "t_floor_primitive",
     "group": "build_t_floor_primitive",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 0,
-    "time": 10,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}]
     ],
@@ -1287,9 +1162,9 @@
     "type": "construction",
     "id": "t_grate",
     "group": "build_t_grate",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "difficulty": 0,
-    "time": 10,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2}],
       [{"id": "SCREW",  "level": 1}]
@@ -1303,9 +1178,9 @@
     "type": "construction",
     "id": "t_thconc_floor",
     "group": "build_t_thconc_floor",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "required_skills" : [ [ "fabrication", 2 ] ],
-    "time": 40,
+    "time": "1 h",
     "tools": [ [ [ "con_mix", 10 ] ] ],
     "qualities": [
       { "id": "SMOOTH", "level": 1 }
@@ -1319,9 +1194,9 @@
     "type": "construction",
     "id": "t_sidewalk",
     "group": "build_t_sidewalk",
-    "category": "FURN",
+    "category": "CONSTRUCT",
     "required_skills" : [ [ "fabrication", 2 ] ],
-    "time": 40,
+    "time": "1 h",
     "tools": [ [ [ "con_mix", 10 ] ] ],
     "qualities": [
       { "id": "SMOOTH", "level": 1 }
@@ -1337,7 +1212,7 @@
     "group": "build_t_water_sh",
     "category": "DIG",
     "difficulty": 0,
-    "time": 30,
+    "time": "1 h",
     "qualities": [
       [{"id": "DIG", "level": 2}]
     ],
@@ -1352,7 +1227,7 @@
     "group": "build_t_water_dp",
     "category": "DIG",
     "difficulty": 0,
-    "time": 30,
+    "time": "2 h",
     "qualities": [
       [{"id": "DIG", "level": 2}]
     ],
@@ -1367,7 +1242,7 @@
     "group": "build_t_window_bars",
     "category": "CONSTRUCT",
     "difficulty": 2,
-    "time": 30,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2 }]
     ],
@@ -1381,7 +1256,7 @@
     "group": "build_t_window_bars_alarm",
     "category": "CONSTRUCT",
     "difficulty": 2,
-    "time": 10,
+    "time": "1 h",
     "qualities": [
       [{"id": "HAMMER", "level": 2 }]
     ],
@@ -1396,8 +1271,8 @@
     "type": "construction",
     "group": "build_autodoc",
     "category": "FURN",
-    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 3 ] ],
-    "time": 120,
+    "required_skills": [ [ "fabrication", 4 ], [ "electronics", 6 ] ],
+    "time": "2 h",
     "tools": [ [ [ "oxy_torch", 4 ], [ "welder", 20 ], [ "welder_crude", 30 ], [ "toolset", 30 ] ] ],
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SCREW", "level": 1 } ], [ { "id": "GLARE", "level": 2 } ] ],
     "components": [
@@ -1420,7 +1295,7 @@
     "group": "build_autodoc_couch",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 4 ], [ "tailor", 4 ] ],
-    "time": 60,
+    "time": "1 h",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 1 } ] ],
     "components": [
       [ [ "2x4", 12 ] ],
@@ -1436,7 +1311,7 @@
     "group": "build_gutter_downspout",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 2 ] ],
-    "time": 20,
+    "time": "1 h",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 1 } ] ],
     "components": [
       [ [ "pipe" , 2  ] ],
@@ -1445,5 +1320,49 @@
     ],
     "pre_special": "check_empty",
     "post_terrain": "t_gutter_downspout"
+  },
+  {
+    "id": "f_bathtub",
+    "type": "construction",
+    "group": "build_f_bathtub",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "1 h",
+    "tools": [ [ [ "con_mix", 5 ] ] ],
+    "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
+    "components": [
+      [ [ "cu_pipe" , 1  ] ],
+      [ [ "water_faucet" , 1 ] ],
+      [ [ "pipe_fittings", 2 ] ],
+      [ [ "ceramic_shard" , 20  ] ],
+      [ [ "concrete", 2 ] ]
+    ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_bathtub"
+  },
+  {
+    "type": "construction",
+    "id": "t_open_air",
+    "group": "build_t_open_air",
+    "category": "DIG",
+    "difficulty": 0,
+    "time": "2 h",
+    "qualities": [
+      [ {"id": "DIG", "level": 2} ],
+      [ {"id": "HAMMER", "level": 2} ]
+    ],
+    "post_terrain": "t_open_air"
+  },
+  {
+    "type": "construction",
+    "id": "t_skylight_frame",
+    "group": "build_t_skylight_frame",
+    "category": "WINDOWS",
+    "required_skills": [ [ "fabrication", 4 ] ],
+    "time": "90 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_M", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 4 ] ], [ [ "nail", 16 ] ] ],
+    "pre_terrain": "t_open_air",
+    "post_terrain": "t_skylight_frame"
   }
 ]
